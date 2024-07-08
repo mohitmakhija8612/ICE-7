@@ -1,9 +1,8 @@
-package ca.georgiancollege.ice7
+package com.example.myapplication
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-//model class
 // Entity annotation marks this class as a table in the Room Database
 @Entity(tableName = "tv_shows")
 data class TVShow(
