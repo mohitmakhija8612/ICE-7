@@ -1,6 +1,7 @@
 package com.example.myapplication
 import androidx.room.*
 
+@Dao
 interface TVShowDao {
     //Inserts a TVShow into the database
     //If a TVShow with the same ID already exists, it will be replaced
