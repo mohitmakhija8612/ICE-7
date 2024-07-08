@@ -50,15 +50,16 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
 
     // room implementations
-   //implementation(libs.androidx.room.common)
-    //implementation(libs.androidx.room.runtime)
-    //implementation(libs.androidx.room.ktx)
-    //kapt(libs.androidx.room.compiler)
-    //implementation(libs.androidx.room.runtime)
+   implementation(libs.androidx.room.common)
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    kapt(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.runtime)
     //Room
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.room.common)
+    kapt(libs.androidx.room.compiler)
 
 
 
